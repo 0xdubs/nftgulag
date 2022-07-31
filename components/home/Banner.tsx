@@ -12,7 +12,7 @@ const Banner = () => (
       title="Want to learn more? Check out this medium article."
       // subtitle="NFT Gulag"
       button={
-        <Link href="https://medium.com/p/cdfd5f9da17d/edit">
+        <Link href="https://daniel-warren.medium.com/the-nft-gulag-dapp-cdfd5f9da17d">
           <a>
             <Button>View Article</Button>
           </a>
