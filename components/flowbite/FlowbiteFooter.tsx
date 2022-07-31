@@ -35,7 +35,7 @@ return (
           icon={BsDiscord}
         />
         <Footer.Icon
-          href="https://github.com/danielw1534/nextjs-gulag-dapp"
+          href="https://github.com/danielw1534/nftgulag"
           icon={BsGithub}
         />
         <Footer.Icon
