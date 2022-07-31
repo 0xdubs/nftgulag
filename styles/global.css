@@ -1,0 +1,43 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.moving-bg {
+    position: absolute;
+    left: 0;
+    width: 500em;
+    height: 70%;
+    opacity: 0.2;
+    visibility: inherit;
+    background: transparent url(../public/core-img/crypto.png) repeat-x scroll 0 100%;
+    -webkit-animation: cloudwash 60s linear infinite;
+    -moz-animation: cloudwash 60s linear infinite;
+    animation: cloudwash 60s linear infinite;
+}
+@media (max-width: 991px){
+    .hero-section.moving{
+        background-position: left top;
+        }
+}
+@-webkit-keyframes cloudwash {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); 
+    }
+  100% {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0); 
+    } 
+}
+
+@keyframes cloudwash {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  100% {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0); } 
+}
+
